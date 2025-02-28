@@ -23,4 +23,4 @@ and ensure that the custom CSS is
 ```css
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 ```
-I set the page permissions to Full access to OBS, but I'm unsure as if 
+I set the page permissions to Full access to OBS, but I'm unsure if it needs those permissions.
