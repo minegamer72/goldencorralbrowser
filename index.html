@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<head>
+	<style>
+		#left {
+			float:left;
+		}
+		#golden {
+			width: 30%;
+		}
+	</style>
+	<script type="text/javascript" src="src/libgif.js"></script>
+	<script type="text/javascript" src="src/code.js"></script>
+</head>
+<body>
+	<div id="left">
+	</div>
+	<img id="golden" src="img/nothing1024.png" rel:animated_src="img/golden.gif" rel:auto_play="0" width="1024" height="1024" />
+	<script type="text/javascript">
+		// init 
+		var gif = new SuperGif({ gif: document.getElementById('golden'), loop_mode: false } );
+		var gifSnd = new Audio('snd/golden.mp3');
+		gif.load();
+	</script>
+</body>
+<!--EOF-->
